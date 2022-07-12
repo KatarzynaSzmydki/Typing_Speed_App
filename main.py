@@ -9,7 +9,7 @@ import random
 
 
 THEME_COLOR = "#375362"
-SEC = 20
+SEC = 60
 with open('texts.txt') as f:
     texts = f.read()
     TEXTS = json.loads(texts)
